@@ -47,6 +47,30 @@ a{
     padding: 12px;
     border-radius: 6px;
 }
-.section_two h1{
-    margin-top: 100px;
+.banner2 h1{
+    margin-top: 90px;
+}
+.banner2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.card div{
+    box-shadow: 5px 5px 40px gray;
+    height: 50%;
+    margin-right: 2%;
+}
+
+#card1{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato 60%, rgb(74, 101, 170) 40%);
+    border-image-slice: 1;
+}
+
+
+#card2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(254, 10, 238) 60%, rgb(97, 18, 225) 40%);
+    border-image-slice: 1;
 }
